@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="h4.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Multiplication Table</h1>
+
+      <div class="input-box">
+        <input type="number" id="number" placeholder="Enter number" />
+        <button onclick="generateTable()">Generate</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Expression</th>
+            <th>Result</th>
+          </tr>
+        </thead>
+
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+    <script src="h4.js"></script>
+  </body>
+</html>
